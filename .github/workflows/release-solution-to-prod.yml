@@ -33,7 +33,7 @@ on:
 
 env:
 #edit your values here
-  BUILD_ENVIRONMENT_URL: 'https://orgd4fcb0f3.crm4.dynamics.com/'
+  BUILD_ENVIRONMENT_URL: 'https://org4d8233a0.crm4.dynamics.com/'
   PRODUCTION_ENVIRONMENT_URL: 'https://orga427d350.crm4.dynamics.com/'
   USERNAME: 'vito.ingrassia@intesasanpaolo.com'
 
