@@ -44,4 +44,4 @@ jobs:
     - name: Unpack MSAPP        
       shell: pwsh
       run: |
-        ./myscript.ps1
+        .\myscript.ps1
