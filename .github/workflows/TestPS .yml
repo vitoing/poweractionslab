@@ -47,5 +47,8 @@ jobs:
         environment-url: ${{env.ENVIRONMENT_URL}}
         user-name: ${{env.USERNAME}}
         password-secret: ${{ secrets.password }}
-    - name: test power shell
-      uses: rajbos/actions-testing@v1
+        
+    - name: Check out repo        
+      uses: actions/checkout@v2
+    - run: |
+        ./myscript.ps1
