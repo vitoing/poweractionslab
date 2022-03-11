@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>user9_canvasprovaalm_9d5a3</Name>
+  <AppVersion>2022-03-11T11:28:16Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.22021.27.0</CreatedByClientVersion>
+  <MinClientVersion>3.22021.27.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"92b5a68a-48b7-4edf-a801-ca3d6570ce33","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22021.27","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>Canvas Prova ALM</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"57314d37-1fdd-429f-9f8f-7b88ff249c6e":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1554/1.0.1554.2707/sharepointonline/icon.png","dataSources":["varSharePointList"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://intesasanpaolo.sharepoint.com/sites/CoE":{"datasetOverride":{"name":"https://intesasanpaolo.sharepoint.com/sites/CoE","environmentVariableName":"user9_varSharePointSite"},"dataSources":{"varSharePointList":{"tableName":"8bf18166-aa46-4c0a-ada4-73a5d9a0e50b","tableNameOverride":{"name":"8bf18166-aa46-4c0a-ada4-73a5d9a0e50b","environmentVariableName":"user9_varSharePointList"}}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read","providers/PowerPlatform.Governance/Operations/Write"]}}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"user9_varSharePointSite","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"user9_varSharePointList","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/user9_canvasprovaalm_9d5a3_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/user9_canvasprovaalm_9d5a3_DocumentUri.msapp</DocumentUri>
+</CanvasApp>
